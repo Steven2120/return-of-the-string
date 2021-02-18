@@ -30,7 +30,7 @@ function yellLouder(str) {
 }
 
 function getInitials(str) {
-  return str[0].toUpperCase() + "." + str.charAt(str.lastIndexOf(" ") + 1).toUpperCase() + ".";
+  return str[0].toUpperCase() + "." + str.charAt(str.indexOf(" ") + 1).toUpperCase() + ".";
 }
 
 /********************************************************************
